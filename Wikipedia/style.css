@@ -1,0 +1,182 @@
+body {
+	font-family: 'Lobster', Times New Roman;	
+
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+
+#icon{
+	position: relative;
+	left : 10%;
+}
+
+
+#f1
+{
+	position: absolute;
+	right: 0%;
+}
+
+#he
+{
+	position: absolute;
+	left: 40%;
+	top:5%;
+}
+img{
+
+	position: absolute;
+	top:25%;
+	left: 36%;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+#s{
+
+position: absolute;
+	top:70%;
+	left: 10%;
+	width: 80%;
+}
+
+#output
+{
+	position: absolute;
+	left: 0%;
+	top:80%;
+	border: solid black 1px;
+}
+
+input {
+    width: 80%;
+     
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn {
+  background: #34ced9;
+  background-image: -webkit-linear-gradient(top, #34ced9, #2980b9);
+  background-image: -moz-linear-gradient(top, #34ced9, #2980b9);
+  background-image: -ms-linear-gradient(top, #34ced9, #2980b9);
+  background-image: -o-linear-gradient(top, #34ced9, #2980b9);
+  background-image: linear-gradient(to bottom, #34ced9, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 20px 8px 20px;
+  border: solid #1f628d 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c56;
+  background-image: -webkit-linear-gradient(top, #fc3c56, #3498db);
+  background-image: -moz-linear-gradient(top, #fc3c56, #3498db);
+  background-image: -ms-linear-gradient(top, #fc3c56, #3498db);
+  background-image: -o-linear-gradient(top, #fc3c56, #3498db);
+  background-image: linear-gradient(to bottom, #fc3c56, #3498db);
+  text-decoration: none;
+}
+
+h2{
+  color:black;
+  padding-left:1%;
+  padding-top:1%;
+
+}
+p{
+	
+  padding-bottom: 1%;
+  padding-left:1%;
+  
+}
+
+
+.weather-app {
+    margin: 0px;
+    width: 300px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px #888888;
+    overflow: hidden;
+    text-align:center;
+    font-family: "Mono";
+}
+
+.left {
+    float: left;
+    background: #262626;
+    padding:10px;
+    width:150px;
+    height:100%;
+    color:white;
+}
+
+.temperature {
+    margin-top:30px;
+    margin-bottom:5px;
+    font-size:32px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.location {
+    font-size: 18px;
+    width:100%;
+    width:150px;
+}
+
+.right {
+    float: right;
+    width:130px;
+    height:100%;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+    background: #cec;
+}
+
+.top img {
+    margin-top: 15px;
+}
+
+.bottom {
+    height: 70px;
+    background: #669999;
+    color: white;
+    font-weight: bold;
+}
+
+.humidity {
+	position: absolute;
+	left: 15%;
+	top: -7px;
+    padding: 8px;
+
+}
+
+.wind {
+}

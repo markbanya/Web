@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 8px 0px 6px 40px;
+  height: 40px;
+}
+
+header h1{
+  display: inline;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+
+}
+
+nav ul 
+{
+  display: :inline;
+  padding: 0px;
+  float: left;
+}
+nav ul li {
+  display:inline-block;
+  list-style-type: none;
+  color: white;
+  float: left;
+  margin-left: 20px;
+
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+text-decoration-style: solid;
+}
+
+.homered{
+  background-color: red;
+  padding: 25px 10px 13px 10px;
+}
+
+.homeblack:hover {
+  background-color: blue;
+  padding: 25px 10px 13px 10px;
+}
+
+.divider{
+  background-color: red;
+  height: 5px;
+}
+
+
+@keyframes slider {
+
+0% {
+  left: 0;
+}
+
+20% {
+  left: 0;
+}
+
+25% {
+  left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+    left: -200%;
+
+}
+
+70% {
+  left: -200%;
+}
+
+75% {
+  left: -300%;
+}
+
+95% {
+  left: -300%;
+}
+
+100% {
+  left: -400%;
+
+}
+
+}
+
+#slider {
+  position: absolute;
+  overflow: hidden;
+  
+  margin-left: 140px;
+  max-width: 1000px;
+  max-height: 300px;
+  
+
+}
+
+#slider figure img {
+  width: 19.6%;
+  float: left;
+}
+
+#slider figure {
+  position: relative;
+  width: 503%;
+  margin-left: 25px;
+  left: 0;
+  animation: 20s slider infinite; 
+
+}
+
+body {
+  background-color: black;
+}
+
+
+.text {
+  position: absolute;
+  top :60%;
+  left: 12%;
+  margin-right: 100px;
+}
+
+.text h1 {
+  color: white;
+}
+.text h4 {
+  position: relative;
+  margin-top: -20px;
+
+  color: white;
+}
+
+.text p{
+  position: relative;
+  color: white;
+  padding-right: 400px;
+  margin-top: 20px;
+  }
+
+  .img1{
+      position: absolute;
+      left: 65%;
+  }
+
+
+#weather{
+  position: relative;
+  padding-top: 25px;
+}
+
+.temperature{
+  position: absolute;
+  color: white;
+      position: absolute;
+    top: 0;
+    right: 86%;
+
+
+}
+
+#pop {
+  position: relative;
+  margin-top: 20px;
+}
+
+#po{
+  position: absolute;
+  top: 10% ;
+  left: 8%;
+}
+
+.divider2{
+  position: relative;
+  margin-top: 150px;
+  background-color: red;
+  height: 5px;
+  padding-left: -50px;
+}
