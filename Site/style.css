@@ -40,6 +40,24 @@ text-decoration: none;
 text-decoration-style: solid;
 }
 
+
+ul.sub-menu{
+  position: absolute;
+  display: inline-grid;
+  background-color: blue;
+  list-style-type: none;
+  width: 92px;
+ padding-left: 0px;
+
+
+}
+ul.sub-menu li {
+  padding-left: :25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
 .homered{
   background-color: red;
   padding: 25px 10px 13px 10px;
@@ -190,5 +208,38 @@ body {
   margin-top: 150px;
   background-color: red;
   height: 5px;
-  padding-left: -50px;
+
+}
+
+#f{
+  position: absolute;
+  left: 94%;
+
+}
+#v{
+  position: absolute;
+  left: 60%;
+  margin-top: 10px;
+}
+
+#r{
+  position: absolute;
+  top: 45%;
+
+}
+#rp{
+  position: absolute;
+  top: 28%;
+  left: 4.5%;
+}
+
+#d{
+  position: absolute;
+  top: 60%;
+
+}
+#dp{
+  position: absolute;
+  top: 43%;
+  left: 5.5%;
 }
